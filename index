@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explore Escapes</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <header> <a href="">
+    <h4 class="logo">VoyageWise Travel</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li> <a href="#contact">CONTACT US</a><div class="search-container">
+
+			<div class="search-container">
+
+            <input type="text" placeholder="Enter a destination or keyword" class="search-input" id="searchInput">
+
+            <button class="btn btn1 " onclick="fetchData()" ><i class="fas fa-search"></i> Search</button>
+
+            <button class="btn btn2" onclick="resetSearch()"><i class="fas fa-times"></i> Clear</button>
+
+        </div>
+</div></li>
+<div id="gallery" class="gallery"></div>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+<section class="hero" id="hero">
+    <h2 class="hero_header">Welcome to</h2>
+    <div class="container-text">
+<div class="container-text">
+<div class="title_intro">
+	<h1 class="escapes">VoyageWise Travel </h1>
+</div>    
+</div>
+</div>
+  </section>
+  <div class="slogan">"Explore the World, One Adventure at a Time"</div>
+  <div class="news">
+    <div class="gallery">
+      <section class="gallery_items">
+        <figure class="gallery_item">
+          <img src="https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3889&q=80" alt="pic1"/>
+          <span>Beautiful Mountains</span>
+        </figure>
+
+        <figure class="gallery_item">
+          <img src="https://images.unsplash.com/photo-1504814532849-cff240bbc503?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80" alt="pic2"/>	
+          <span>Relaxing Beachs</span>
+        </figure>
+
+        <figure class="gallery_item">
+          <img src="https://images.unsplash.com/photo-1523772849-5ffc814469be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80" alt="pic3"/>
+          <span>Wild Jungles</span>	
+        </figure>
+      </section>
+    </div>
+  </div>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">"Adventure is out there, book your ticket! The thrill of exploring new destinations, immersing yourself in unfamiliar cultures, and creating lifelong memories is just a click away. Don't let fear or doubt hold you back - take the leap and watch your dreams unfold before your eyes."<br> &nbsp;&nbsp;&nbsp;&nbsp;-Aurora Santos </p>
+    <p class="text_column">"The world is a book, and those who do not travel read only one page. The pages of this book are filled with diverse landscapes, vibrant cities, and the stories of people from all walks of life. By traveling, you turn the pages and broaden your perspective, gaining a deeper understanding of the world and your place in it."<br> &nbsp;&nbsp;&nbsp;&nbsp;-Jasper Patel</p>
+    <p class="text_column">"Life is a journey, make it a memorable one! Don't settle for the mundane or ordinary - seek out experiences that will leave you breathless and inspire you to dream bigger. Whether it's trekking through mountains, relaxing on a sun-kissed beach, or exploring the world's great cities, make every moment count and create a lifetime of unforgettable memories."<br>&nbsp;&nbsp;&nbsp;&nbsp;-Luna Winters</p>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery1">
+    <div class="thumbnail">
+      <h1 class="stats">85% customer satisfaction rate</h1>
+      <h4>Customer Satisfaction Soars</h4>
+      <p class="description">"AtVoyageWise Travel Co. we pride ourselves on delivering exceptional customer experiences. Our dedication to providing personalized travel solutions and top-notch customer service has earned us an impressive 85% customer satisfaction rate. Whether it's helping you choose the perfect destination, finding the best deals, or ensuring a smooth trip, we're committed to making your travel dreams a reality."</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">20,000+ successful trips planned</h1>
+      <h4>Trip Planning Excellence</h4>
+      <p class="description">With VoyageWise Travel Co., you can trust that you're in experienced hands. Our team of expert travel agents has planned over 20,000 successful trips, ensuring that every detail is taken care of and every traveler returns home with unforgettable memories. Whether you're looking for a relaxing getaway, an adventure-filled escape, or a once-in-a-lifetime experience, we have the expertise to make it happen."</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">500+ expert travel agents on staff</h1>
+      <h4>Expertise Unmatched</h4>
+      <p class="description">"AtVoyageWise Travel Co., we believe that personalized travel planning makes all the difference. That's why we've assembled a team of over 500 expert travel agents, each with extensive knowledge and experience in crafting customized itineraries. Whether you're looking for insider tips, expert advice, or simply someone to handle all the logistics, our team is here to help you every step of the way."</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">15% average savings on package deals</h1>
+      <h4>Savings Guaranteed:</h4>
+      <p class="description">"Booking a package deal with VoyageWise Travel Co. not only simplifies your travel planning, but also saves you money! On average, our package deals offer a remarkable 15% savings compared to booking each component separately. Let us take care of the details while you enjoy the perks of a carefully curated vacation, all at an unbeatable price."</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+ <section class="banner">
+    <h2 class="parallax">Message From The CEO</h2>
+    <div class="ceo-content">	         <img class="ceo" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ45JyYVq4BYhtQBGMVX_Iae-BbuLrpA9If0oG8KAzrKl_zouRT" alt="ceo">
+
+        <p class="parallax_description">"As the CEO of VoyageWise Travel Co., I am thrilled to see the resurgence of interest in experiential travel. Our clients are no longer satisfied with simply checking sights off a list; they want to immerse themselves in local cultures, try new foods, and forge meaningful connections with the people and places they encounter. That's why we've expanded our offerings to include unique experiences like homestays, cooking classes, and community service projects. We believe that travel should be a transformative force for good, and we're committed to empowering our travelers to make a positive impact on the world."</p>
+    </div>
+</section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>Special Offers</h3>
+      <img src="https://st.depositphotos.com/1891797/3517/i/450/depositphotos_35173743-stock-photo-sale-on-wood-background.jpg" alt="sale" width="400" height="200" class="cards"/>
+      <p>Embark on your dream vacation with our exclusive sales at VoyageWise Travel Co. Discover breathtaking destinations around the globe at unbeatable prices. Whether you're craving a tropical escape to the sandy shores of the Caribbean, a cultural journey through the historic streets of Europe, or an adrenaline-fueled adventure in the heart of South America, we have the perfect deal for you. Take advantage of our limited-time offers, including discounted airfare, complimentary hotel upgrades, and exclusive access to guided tours and excursions. With our expert travel consultants at your service, planning your next getaway has never been easier. Don't miss out on these incredible sales – book your unforgettable vacation today with VoyageWise Travel Co.</p>
+    </article>
+    <article class="footer_column">
+      <h3>Virtual Tours</h3>
+      <img src="https://www.goldeneagleloghomes.com/galleries/tour-images/043/TourThumbnail.jpg?v=1" alt="" width="400" height="200" class="cards"/>
+      <p>Experience the world from the comfort of your home with our immersive virtual tours at VoyageWise Travel Co. Explore iconic landmarks, hidden gems, and cultural wonders with our expertly curated virtual experiences. From the majestic pyramids of Egypt to the bustling streets of Tokyo, our virtual tours offer a glimpse into destinations across the globe. With interactive guides, 360-degree views, and informative commentary, you'll feel like you're right there, experiencing the sights and sounds firsthand. Whether you're a seasoned traveler looking to reminisce about past adventures or a curious explorer seeking new horizons, our virtual tours provide an enriching and captivating journey for all. Start your virtual adventure today with VoyageWise Travel Co. </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+	  <h2 class="hidden">Footer</h2>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2024 - Chris HUtchinson&nbsp; <strong>&nbsp;</strong></div>
+</div>
+<!-- Main Container Ends -->
+<script>
+
+</script>
+</body>
+</html>
+```
